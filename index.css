@@ -1,0 +1,191 @@
+.navbar{
+	width: 100%;
+	margin-top: 20px;
+	height: 50px;
+	background-color: rgba(239, 239, 239, 0.659);
+	box-shadow: 0px 1px 2px rgba(62, 62, 62, 0.493);
+}
+svg{
+	margin: 10px 60px;
+}
+.nav-icons{
+	float:right;
+	margin: 10px 60px;
+
+}
+.nav-icons i{
+	padding: 5px;
+	color: #0029FF;
+}
+#offcanvas {
+	top: 100px;
+	border-radius: 0px 8px 0px 0px;
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	box-shadow: 0px 1px 5px rgba(62, 62, 62, 0.493);
+
+}
+
+#offcanvas1 {
+	width: 0;
+	left:-1px;
+	top: 100px;
+	border-radius: 0px 8px 0px 0px;
+	height: 100%;
+	position: fixed;
+	overflow-x: hidden;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 5px rgba(62, 62, 62, 0.493);
+}
+.offcanvas-header {
+	border-radius: 0px 8px 0px 0px;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+.offcanvas-header i{
+	float: right;
+	font-size: 25px;
+	padding: 8px 10px;
+}
+.offcanvas-header1 {
+	border-radius: 0px 8px 0px 0px;
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+.offcanvas-header1 i{
+	float: right;
+	font-size: 25px;
+	padding: 8px 10px;
+}
+.offcanvas-header1 span{
+	font-size: 15px;
+	color:white;
+	padding: 20px;
+}
+.offcanvas-list{
+	padding-left: 5px;
+}
+.main {
+	margin-top: 30px;
+	height: auto;
+	border-radius: 8px;
+	min-height: 550px;
+	margin-left: 80px;
+	margin-right: 50px;
+	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
+}
+
+.main-header {
+	border-radius: 8px 8px 0px 0px;
+	width: 100%;
+	height: 40px;
+	background: #0029FF;
+}
+
+.main-header p {
+	font-size: 15px;
+	margin: 0;
+	text-decoration: solid;
+	color: white;
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.all-cards{
+	margin-top: 30px;
+}
+.all-cards p{
+	text-align: center;
+	font-size: 11px;
+}
+.card-container{
+	width: 100%;
+	text-align: center;
+}
+
+.card {
+	width: 45%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
+	margin: 10px;
+	display: inline-block;
+}
+
+
+.card-header {
+	border-radius: 8px 8px 0px 0px;
+	width: 100%;
+	height: 32px;
+	background: #000000;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
+
+.collapsible{
+	background-color: white;
+	float: right;
+	border: none;
+	
+}
+.active, .collapsible:after{
+	transform: rotate(180deg);
+}
+
+.content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: white;
+}
+.content input{
+	border: none;
+	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
+	margin: 20px 0px;
+	padding: 40px 60px;
+	border-radius: 8px;
+
+}
+.submit{
+	background: #0029FF;
+	border: none;
+	padding: 15px 20px;
+	float: right;
+	margin: 30px 50px;
+	border-radius: 8px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+.card1 {
+	width: 45%;
+	height: auto;
+	border-radius: 8px;
+	min-height: 50px;
+	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
+	margin: 10px;
+}
+.card2 {
+	width: 45%;
+	height: auto;
+	border-radius: 8px;
+	min-height: 50px;
+	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
+	margin: 10px;
+}
+
+
+
+

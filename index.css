@@ -104,6 +104,9 @@ svg{
 .card-container{
 	width: 100%;
 	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:baseline;
 }
 
 .card {
@@ -112,7 +115,7 @@ svg{
 	border-radius: 8px;
 	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
 	margin: 10px;
-	display: inline-block;
+	
 }
 
 
@@ -124,13 +127,15 @@ svg{
 	text-align: center;
 	color: white;
 	font-size: 12px;
+	
 }
 
 
 .collapsible{
 	background-color: white;
-	float: right;
 	border: none;
+	float: right;
+	border-radius: 10px;
 	
 }
 .active, .collapsible:after{
@@ -161,31 +166,3 @@ svg{
 	border-radius: 8px;
 	color: white;
 }
-
-
-
-
-
-
-
-
-.card1 {
-	width: 45%;
-	height: auto;
-	border-radius: 8px;
-	min-height: 50px;
-	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
-	margin: 10px;
-}
-.card2 {
-	width: 45%;
-	height: auto;
-	border-radius: 8px;
-	min-height: 50px;
-	box-shadow: 1px 1px 5px rgba(62, 62, 62, 0.493);
-	margin: 10px;
-}
-
-
-
-
